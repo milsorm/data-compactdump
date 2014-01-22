@@ -1,3 +1,4 @@
+use 5.012; #package NAME VERSION
 package Data::CompactDump 0.03;
 # ABSTRACT: Perl extension for dumping xD structures in compact form
 
