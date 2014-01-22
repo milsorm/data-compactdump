@@ -5,8 +5,8 @@ package Data::CompactDump 0.03;
 
 	use Data::CompactDump qw/compact/;
 
-	my @xd_structure = [ [ 1, 2 ], [ 3, [ 4, 5 ] ] ];
-	my $dump = compact( @xd_structure );
+	my $xd_structure = [ [ 1, 2 ], [ 3, [ 4, 5 ] ] ];
+	my $dump = compact( $xd_structure );
 
 
 =head1 DESCRIPTION
@@ -28,8 +28,8 @@ our @EXPORT = qw(compact);
 Make eval-compatible form of xD structure for saving and restoring data
 (compact form)
 
-	my @xd_structure = [ [ 1, 2 ], [ 3, [ 4, 5 ] ] ];
-	my $dump = compact(@xd_structure);
+	my $xd_structure = [ [ 1, 2 ], [ 3, [ 4, 5 ] ] ];
+	my $dump = compact($xd_structure);
 
 =cut
 
