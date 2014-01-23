@@ -1,5 +1,5 @@
 use 5.012; #package NAME VERSION
-package Data::CompactDump 0.03;
+package Data::CompactDump 0.04;
 # ABSTRACT: Perl extension for dumping xD structures in compact form
 
 =head1 SYNOPSIS
